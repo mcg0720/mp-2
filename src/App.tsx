@@ -6,7 +6,7 @@ import type {Book} from "./interfaces/Books.ts";
 const ParentDiv=styled.div`
   width: 80vw;
   margin: auto;
-  border: 5px darkgoldenrod solid;
+  border: 5px indianred solid;
 `;
 
 export default function App(){
