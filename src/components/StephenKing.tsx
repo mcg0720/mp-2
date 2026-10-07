@@ -24,6 +24,7 @@ const SingleBookDiv = styled.div<{ Publisher: string }>`
                                                     props.Publisher === "Scribner" ? 'mediumpurple' :
                                                     'yellow' 
     };
+    color: ${(props) => (props.Publisher === "Scribner" ? 'white' : 'black')};
     border: 3px darkred solid;
     font: italic small-caps bold calc(2px + 1vw) Papyrus, fantasy;
     text-align: center;
